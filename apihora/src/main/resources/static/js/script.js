@@ -1,4 +1,6 @@
+ /* función para cargar información */
 $(document).ready(function () {
+ /* invoco api a travez de ajax */
     $.ajax({
         
         url: "http://localhost:8080/index/apihora",

@@ -19,8 +19,8 @@ public class ApiHora {
 	@GetMapping("index/apihora")
 	public Hora ApiHora() {
 		Hora hora = new Hora();
-		// obtener hora actual //
 		
+		// obtener hora actual //
 		Instant timestamp = Instant.now();
 		
 		// LocalDatetime formato de fecha//
